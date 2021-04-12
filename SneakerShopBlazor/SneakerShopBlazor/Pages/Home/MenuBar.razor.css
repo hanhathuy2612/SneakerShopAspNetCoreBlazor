@@ -1,0 +1,9 @@
+﻿.menubar{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.menubar__item{
+    text-align:center;
+}

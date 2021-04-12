@@ -1,0 +1,144 @@
+/* _content/SneakerShopBlazor/Pages/Home/MenuBar.razor.rz.scp.css */
+.menubar[b-3asakj2twk]{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.menubar__item[b-3asakj2twk]{
+    text-align:center;
+}
+/* _content/SneakerShopBlazor/Shared/MainLayout.razor.rz.scp.css */
+.page[b-002mdqg20j] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-002mdqg20j] {
+    flex: 1;
+}
+
+.sidebar[b-002mdqg20j] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-002mdqg20j] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-002mdqg20j]  a, .top-row .btn-link[b-002mdqg20j] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-002mdqg20j] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-002mdqg20j] {
+        display: none;
+    }
+
+    .top-row.auth[b-002mdqg20j] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-002mdqg20j], .top-row .btn-link[b-002mdqg20j] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-002mdqg20j] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-002mdqg20j] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-002mdqg20j] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-002mdqg20j] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/SneakerShopBlazor/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-ci9v5dgwgf] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-ci9v5dgwgf] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-ci9v5dgwgf] {
+    font-size: 1.1rem;
+}
+
+.oi[b-ci9v5dgwgf] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-ci9v5dgwgf] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-ci9v5dgwgf] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-ci9v5dgwgf] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-ci9v5dgwgf]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-ci9v5dgwgf]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-ci9v5dgwgf]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-ci9v5dgwgf] {
+        display: none;
+    }
+
+    .collapse[b-ci9v5dgwgf] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
