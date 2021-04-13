@@ -89,6 +89,13 @@ using SneakerShopBlazor.Pages.Home;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\CÁC MÔN TRÊN TRƯỜNG\Kỳ 6\Lập trình web\BTL\SneakerShopBlazor\SneakerShopBlazor\Shared\MainLayout.razor"
+using SneakerShopBlazor.Pages.Header;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
